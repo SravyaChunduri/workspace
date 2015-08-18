@@ -1,0 +1,9 @@
+package assign16;
+
+public class MyMessageSender {
+	
+	MessageService message;
+	
+	
+
+}

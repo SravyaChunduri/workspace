@@ -1,0 +1,8 @@
+package assign14;
+
+public static class Today {
+	public String static getCurrentDate(){
+		
+	}
+
+}

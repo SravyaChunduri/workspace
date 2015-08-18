@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>student</servlet-name>
+<servlet-class>assign13.Student</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>student</servlet-name>
+<url-pattern>/stu</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>

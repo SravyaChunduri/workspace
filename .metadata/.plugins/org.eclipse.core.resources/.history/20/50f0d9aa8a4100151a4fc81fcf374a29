@@ -1,0 +1,22 @@
+package day17;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class LoginController {
+	
+	
+	@Controller
+	public class LoginContoller
+	{
+		@RequestMapping("loginvalidate")
+		public String loginValidate(@ModelAttribute("login") Login log)
+		{
+			if
+		}
+		
+		
+		
+	}
+
+}

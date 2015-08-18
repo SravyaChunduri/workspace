@@ -1,0 +1,9 @@
+package day20;
+
+public class HelloWorldImpl implements HelloWorld{
+	@Override
+	public String greetings(String name) {
+		String msg="Hello"+name;
+		return null;
+	}
+}

@@ -1,0 +1,8 @@
+package day16_Beans;
+
+import di.Wheels;
+
+public class Ceat implements Wheels{
+	public 
+
+}

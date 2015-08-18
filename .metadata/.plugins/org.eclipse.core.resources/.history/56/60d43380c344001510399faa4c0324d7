@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="application/javascript">
+function loadJSON()
+{
+	var data_file="Data.json";
+	var xmlhttp;
+	var http_request=new XMLHttpRequest();	
+	if(window.XMLHttpRequest)//Non -IE
+	{
+	xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{
+	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");//For IE
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+	if(xmlhttp.readyState==4 && xmlhttp.status==200)
+	{
+	document.getElementById("t").innerHTML=xmlhttp.responseText;
+	}
+	}
+	http_request.onreadystatechange=function(){
+		if(http_request.readyState==4)
+		
+		
+		
+		
+	}
+	xmlhttp.open("GET","addCustomer.jsp?nm="+str,true);
+	xmlhttp.send();
+	}
+	
+	
+}
+
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DAY15(DAO)">
+        <property name="context-root" value="DAY15_DAO"/>
+        <property name="java-output-path" value="/DAY15(DAO)/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,11 @@
+package assign16;
+
+public class TwitterService implements MessageService{
+
+	@Override
+	public void sendMessage(String receiverName, String msg) {
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package day20;
+
+public interface HelloWorld {
+	public String greetings(String name)
+	{
+		
+	}
+
+}

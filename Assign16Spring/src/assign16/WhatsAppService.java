@@ -1,0 +1,12 @@
+package assign16;
+
+public class WhatsAppService implements MessageService{
+
+	@Override
+	public void sendMessage(String receiverName, String msg) {
+		
+		System.out.println("Hello !!" +receiverName);
+		System.out.println("Whatsapp services messaging..."+" Msg: "+msg);
+	}
+
+}

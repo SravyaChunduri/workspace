@@ -1,0 +1,10 @@
+package assign16;
+
+public class MessageSenderMain {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

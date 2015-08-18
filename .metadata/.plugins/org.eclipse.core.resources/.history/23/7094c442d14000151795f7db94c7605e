@@ -1,0 +1,11 @@
+package day16_Beans;
+
+public class ClientApplication {
+
+	public static void main(String[] args) {
+		
+		
+		BeanFactory factory=new XmlBeanFactory(new ClassPathResource("beans/Spring.xml"));
+	}
+
+}

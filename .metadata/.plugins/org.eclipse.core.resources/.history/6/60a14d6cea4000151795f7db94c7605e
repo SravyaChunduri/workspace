@@ -1,0 +1,22 @@
+package assign16;
+
+public class MyMessageSender {
+	
+	MessageService message;
+
+	public MessageService getMessage() {
+		return message;
+	}
+
+	public void setMessage(MessageService message) {
+		this.message = message;
+	}
+	public void sendMsg()
+	{
+		message.sendMessage("sss","sss");
+		System.out.println("Hello message sent");
+	}
+	
+	
+
+}
